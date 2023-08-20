@@ -6,6 +6,11 @@ from dotenv import load_dotenv
 from multiprocessing import Pool
 from tqdm import tqdm
 
+# required for ingesting html
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+
 from langchain.document_loaders import (
     CSVLoader,
     EverNoteLoader,

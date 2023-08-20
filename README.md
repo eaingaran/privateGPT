@@ -12,7 +12,7 @@ In order to set your environment up to run the code here, first install all requ
 pip3 install -r requirements.txt
 ```
 
-*Alternative requirements installation with poetry*
+*Alternative requirements installation with poetry (Recommended)*
 1. Install [poetry](https://python-poetry.org/docs/#installation)
 
 2. Run this commands
